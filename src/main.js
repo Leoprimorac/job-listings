@@ -1,6 +1,9 @@
 import Vue from 'vue'
-import App from './App.vue'
+import App from './Index.vue'
+import './css/index.css';
+import Vuex from 'vuex'
 
+Vue.use(Vuex)
 Vue.config.productionTip = false
 
 new Vue({
